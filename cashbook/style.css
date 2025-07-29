@@ -1,0 +1,184 @@
+/* ========================================
+   Cash Book System - Full Clean CSS
+   Author: [Your Name]
+   Date: [Date]
+   ======================================== */
+
+/* ======= Global Styles ======= */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2a5298, #1e3c72);
+  margin: 0;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.main-content {
+  padding-top: 80px;
+}
+
+
+/* ======= Navbar ======= */
+
+.navbar {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-content: flex-start;
+}
+
+/* ======= Logo Styles ======= */
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* ======= Login Page ======= */
+
+.login-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container form .form-group label {
+  font-weight: bold;
+}
+
+.login-container button {
+  font-weight: bold;
+}
+
+/* ======= Animation ======= */
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* ======= Dashboard ======= */
+
+.dashboard-heading {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ======= Tables ======= */
+
+.table th {
+  background-color: #2a5298;
+  color: white;
+}
+
+.table td, .table th {
+  vertical-align: middle !important;
+}
+
+/* ======= Buttons ======= */
+
+.btn-primary, .btn-warning, .btn-danger {
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-primary:hover, .btn-warning:hover, .btn-danger:hover {
+  opacity: 0.9;
+}
+
+/* ======= Footer ======= */
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+/* ======= Forms ======= */
+
+.form-control:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 5px rgba(42, 82, 152, 0.5);
+}
+
+/* ======= Charts (Optional) ======= */
+
+.chart-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+/* ======= Utility Classes ======= */
+
+.text-center {
+  text-align: center !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+/* ======= Responsive ======= */
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 30px 20px;
+  }
+}
+.table {
+  background-color: white;
+}
+
+.table th {
+  background-color: #2a5298; /* blue headers */
+  color: white;
+}
+
+.table td {
+  background-color: white;
+  color: black;
+}
